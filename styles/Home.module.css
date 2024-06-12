@@ -1,20 +1,37 @@
 .container {
-    font-family: sans-serif;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .editor, .viewer {
-    margin: 20px;
-    display: inline-block;
-    vertical-align: top;
-  }
-  
-  .editor {
-    width: 45%;
-  }
-  
-  .viewer {
-    width: 45%;
-  }
-  
+  background-color: rgb(35, 124, 127);
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.editor, .viewer {
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.editor {
+  width: 45%;
+}
+
+.viewer {
+  width: 45%;
+  text-align: left;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  /* background-color: white; */
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 100%;
+}

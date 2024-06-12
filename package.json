@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
     "ace-builds": "^1.35.0",
     "next": "14.2.4",
+    "pretty-data": "^0.40.0",
     "react": "^18",
     "react-ace": "^11.0.1",
     "react-dom": "^18",
